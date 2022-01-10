@@ -1,4 +1,4 @@
-1 = float(input("Digite o valor do produto R$ "))
+n1 = input("Digite o preço do produto R$")
 n2 = float(n1*5)
 n3 = n2/100.00
 n4 = float(n1-n3)
