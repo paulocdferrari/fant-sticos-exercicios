@@ -1,0 +1,10 @@
+1 = float(input("Digite o valor do produto R$ "))
+n2 = float(n1*5)
+n3 = n2/100.00
+n4 = float(n1-n3)
+print ("O produto que custava R$ {}, com desconto custará R$ {:.2f}".format(n1, n4))
+
+#Maneira ensinada
+#Preço = float(input("Digite o valor do produto R$ "))
+#novo = Preço - (Preço * 5 / 100)
+#print ("O produto que custava R$ {}, com desconto custará R$ {:.2f}".format(Preço, novo))
